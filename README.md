@@ -9,16 +9,16 @@
 ## Team Name
 
 15058, 15061 Group 1
-## Team Members
+## Team Members:
 
 1. Jake Bogartz [@jab92323](https://github.com/jab92323)
 2. Aiden Abramowitz [@aja1232](https://github.com/aja1232)
 3. Max Young [@mxgyoung](https://github.com/mxgyoung)
 4. Kiefer Sturisky [@ksturisky](https://github.com/ksturisky)
-## Problem Description
+## Problem Description:
 
 The given problem is to create a database for an owner of a football team that models the entities and relationships that exist. We decided to improve the model by portraying the entities and relationships of an entire football league. The central entity of the model is Team, which represents each of the competing teams in our league. The team entity is then related to the players on the roster, the staff that works for them, the fans that cheer for them, their financial situation, and the results of each game they play in. Furthermore, we are looking to expand on the game entity by connecting it to entities that record player statistics within a game, injuries that occur, and the amount of games within a given season. Finally, we are including an awards entity to capture the best players from a given season. Our goal is to accurately model the relationships between these entities, insert sample data into each entity, and execute functioning queries in order to provide us with valuable information about our created football league.
-## Data Model
+## Data Model:
 
 Explanation of Data Model:
 Our model is based on the structure of a created football league. The central entity, Team, includes information about the name of the team and where it is located. Within each team, there are many players, staff members, and fans, which explains the many to many relationships that exist between Team and the Player, Staff and Fan entities. Within the player entity, we capture the name, date of birth, and position of each individual. Within the staff entity, we include information on their name, job position, and salary. Furthermore, we implemented a recursive relationship within the staff entity in order to define who is the respective boss of each of the staff members. The fan entity includes information on their name, contact info, and season ticket status. 
@@ -31,7 +31,7 @@ The final relationships that take place within our model involve the Awards enti
 
 <img width="808" alt="Screenshot 2023-11-06 at 10 39 04 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/422f7a17-93ed-43df-ae1f-45cf6bdf0b36">
 
-## Data Dictionary
+## Data Dictionary:
 
 <img width="505" alt="Screenshot 2023-11-06 at 10 44 08 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/4a91f584-e6d1-4136-b617-9838b99e9174">
 <img width="502" alt="Screenshot 2023-11-06 at 10 43 55 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/78ed1195-e5d6-45a8-9b8a-12473652c8aa">
@@ -47,7 +47,7 @@ The final relationships that take place within our model involve the Awards enti
 <img width="497" alt="Screenshot 2023-11-06 at 10 41 15 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/ecd6ee0b-0b5b-4297-88bf-3310dfefb6b3">
 <img width="491" alt="Screenshot 2023-11-06 at 10 40 43 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/5902a2cb-f110-46af-af13-45823fd37fba">
 
-## Queries
+## Queries:
 
 <img width="539" alt="Screenshot 2023-11-06 at 10 49 15 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/42a09d0e-a47b-468d-b143-13b8ed456a68">
 
