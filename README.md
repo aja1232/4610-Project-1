@@ -6,7 +6,7 @@
 
 
 
-## Team Name
+## Team Name:
 
 15058, 15061 Group 1
 ## Team Members:
