@@ -73,12 +73,14 @@ The final relationships that take place within our model involve the Awards enti
    <img width="559" alt="Screenshot 2023-11-07 at 5 42 02 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/72dee646-9c68-456d-837b-acc72f3c51fe">
 
 8. This query lists the names of every player that has received an award and the name of the award. This utilizes a subquery, as well as ‘exists’ in order to only list the names of players who have received an award, and leaves out all the players who have not received any awards. This would be useful if one was trying to argue which player was the greatest of all time because they would need to pull up that player’s awards.
+
    <img width="653" alt="Screenshot 2023-11-07 at 5 30 09 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/fe8cb393-07e8-4b50-85bf-990507dc66e5">
 
-9. This selects the name of players who have been injured more than once as well as the type of injury they received. This is useful because If a player has received multiple injuries, especially concussions, they may need to stop playing in order to avoid long term consequences. Team doctors would need this information in order to find players that were at risk to re-injure themselves.
+10. This selects the name of players who have been injured more than once as well as the type of injury they received. This is useful because If a player has received multiple injuries, especially concussions, they may need to stop playing in order to avoid long term consequences. Team doctors would need this information in order to find players that were at risk to re-injure themselves.
     <img width="549" alt="Screenshot 2023-11-07 at 5 43 27 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/8dffec35-c0c0-44d2-8a51-9f85cb62cdea">
 
-10. This query selects the number of fans who hold season tickets for each team. This is useful to assess which teams are the most successful at selling their season ticket packages, and can indicate which teams have the most overall fans.
+11. This query selects the number of fans who hold season tickets for each team. This is useful to assess which teams are the most successful at selling their season ticket packages, and can indicate which teams have the most overall fans.
+    
     <img width="525" alt="Screenshot 2023-11-07 at 5 44 00 PM" src="https://github.com/aja1232/4610-Project-1/assets/148247965/f858836a-0182-45d9-bc85-9ab393c9710c">
 
 
